@@ -23,6 +23,10 @@ public class Box
         return length * width * height;
     }
 
+    public void printVolume(){
+        System.out.println("Volume = " + volume());
+    }
+
     public boolean anySideLongerThan(int side)
     {
         if (length > side || width > side || height > side)

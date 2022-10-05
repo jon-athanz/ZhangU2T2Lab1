@@ -6,5 +6,8 @@ public class BoxRunner {
         Box cube2 = new Box(15);
         Box box3 = new Box(2.5, 6.7,3.4);
         Box box4 = new Box(4.5);
+
+        box1.printVolume();
+
     }
 }
